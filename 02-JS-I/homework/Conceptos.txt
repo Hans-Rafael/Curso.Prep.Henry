@@ -1,0 +1,6 @@
+* Variables: en una forma de guardar algo que se sabe y que despues puede ser utilizada para otra cosa.  
+* Strings: es un tipo de dato o informacion formado por texto
+* Funciones (argumentos, `return`): las funciones nos permitiran hacer algo con los datos que se poseen como lo son las Variables y realizar diferentes cosas con ellas siendo los argumentos el nombre con el se le conoce a la informacion que se le agrega a una funcion que realizara algo con ella,
+mientras que una funcion "returns" sera aquella opcion que tendra una funcion de devolver o expresar los resultados o exprecciones obtenidas del analisis realizado con una funcion.
+* Declaraciones `if`: nos permitira que una funcion pueda decidir que hacer si pasa algo o no!
+* Valores booleanos (`true`, `false`):es un tipo de dato o informacion que solo puede ser de 2 tipos o verdadera o falsa.
