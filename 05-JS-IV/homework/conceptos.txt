@@ -13,4 +13,3 @@ const objeto = {
 obj[variable]; // ✅ '1value'
 // notacion de punto
 obj.variable; // 'xxx'
-/*******************************************************************/
