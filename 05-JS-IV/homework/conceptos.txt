@@ -1,0 +1,15 @@
+* Objetos: puedo guardar muchas y diferentes informacion sobre alguna cosa. al objeto de x nombre se le agregara la informacion entre llaves separadas por coma y dicho elemento usara un concepto llamado pares de "clave:valor" donde valor puede ser cualquier tipo de dato.  
+* Propiedades : la combinacion clave: valor podriamos considerar como la o las propiedades del objeto.
+* Métodos: las funciones guardadas en los o el objeto se les conoce como metodo y podran ser llamadas con notacion punto donde usamos el nombre del objeto seguido por un punto y el nombre de la funcion y parentesis al final;
+	* Bucle `for…in`: es muy similar al normal ciclo for pero usaremos de variable, la palabra "clave in" seguida del nombre del objeto para recorrer todo el objeto.
+	* Notación de puntos vs notación de corchetes : son 2 formas de acceder o llamar los valores guardados,aun que con punto es mas facil y rapido de escribir en ciertas ocacciones es mas conveniente usar corchetes como con (identificadores) secuencia de caracteres de código que identificara las variable, función o propiedad, o utilizar con variables 
+    no validos.
+	example : const 1variable = 'myname';
+const objeto = {
+  myname: '1value',
+  variable: 'xxx'
+};
+//notacion de corchete
+obj[variable]; // ✅ '1value'
+// notacion de punto
+obj.variable; // 'xxx'

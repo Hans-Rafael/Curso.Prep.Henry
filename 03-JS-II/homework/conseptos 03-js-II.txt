@@ -1,0 +1,4 @@
+Siclo For: nos ayuda a representar un siclo repetitivo de acciones que un programa debe realizar siempre que se cumpla con una exprecion prestablecida , este ciclo for se representa con la palabra clave ***for**** seguida por un parentesis en el que iran la variable declarada e inicialisada, la exprecion que establece la condicion del siclo y el contador que nos permitira ejecutar el ciclo hasta se cumpla con la exprecion condicional.esto estara seguido por una exprecion encerrada en llaves donde se ejecutara la accion repetitiva que deseamos en nuestro programa.
+operadores logicos &&,||,!
+
+estos son utilizados en conjunto con el if para establecer comparaciones donde al preguntar si se cumple algo "y" algo usaremos la simbologia &&, para algo "o" otro usamos la simbologia ||(en teclado español se usara ALT+124 dos veces)y para saber si algo es diferente a otra cosa o no es otra cosa utilizaremos dentro del IF la condicion de pregunta con el simbolo !   
