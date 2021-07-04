@@ -21,27 +21,22 @@ function numberOfCharacters(string) {
   //Escribe tu código aquí
   //I am STock!!!
   const m2={};
-  var
-  v1 = string[0];
-  cont= 0;
-  k=0;
+  var v1 = string[0];
+  var cont= 0;
   for (i=1; i<string.length; i++){
       if (v1= string[i]){
           v1= string[i];
-          m2={ }
-          m2[cont]=string[i],cont;
+          m2.push(string[i]);//como agregar contador(cont) a la matriz 2(m2)
           cont= cont + 1;
       }
       else{
           v1= string[i];
-          m2[cont]=string[i];
+         m2.push(string[i]);
           
 
       }
   }
   return m2;
- /* for(i=0; i<m2.lengh; i++){ console.log(m2[i]);}*/
-numberOfCharacters("aderdcsdfsdf");
 }
 
 
