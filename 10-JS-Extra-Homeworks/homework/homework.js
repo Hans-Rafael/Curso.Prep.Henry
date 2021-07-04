@@ -2,14 +2,15 @@
 
 function deObjetoAmatriz(objeto){
   // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa 
-  // un par clave-valor en forma de matriz.
+  //  Loop through the srting and return the character with the number of times it appears.
   //Ejemplo: 
   /*objeto({
       D: 1,
       B: 2,
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
-  //Escribe tu código aquí
+  //Escribe tu código aquí //object.values (objeto) regresa solo los valore 1,2,3..
+  return Object.entries(objeto);
 }
 
 
@@ -18,6 +19,29 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  //I am STock!!!
+  const m2={};
+  var
+  v1 = string[0];
+  cont= 0;
+  k=0;
+  for (i=1; i<string.length; i++){
+      if (v1= string[i]){
+          v1= string[i];
+          m2={ }
+          m2[cont]=string[i],cont;
+          cont= cont + 1;
+      }
+      else{
+          v1= string[i];
+          m2[cont]=string[i];
+          
+
+      }
+  }
+  return m2;
+ /* for(i=0; i<m2.lengh; i++){ console.log(m2[i]);}*/
+numberOfCharacters("aderdcsdfsdf");
 }
 
 
